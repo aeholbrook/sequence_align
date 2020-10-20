@@ -92,20 +92,6 @@ def print_seq(arr1,arr2):
 
 
 def main():
-
-    sm = generate_sub_matrix("blosum62.txt")
-    h = global_alignment(sm,"CATGATTTTAGGATCAT","CAGCATTAGGAT", True, -20)
-    print(len(np.where(h.arr1==h.arr2))/max(len(h.arr1),len(h.arr2)) * 100, " percent match")
-    print()
-    print(h.out )
-    print()
-    print_formatted(h.dirct,3)
-    #print("".join('{:^1}'.format(str(elem)) for elem in arr1))
-    #print("".join('{:^1}'.format(str(elem)) for elem in arr2))
-    print()
-    print(print_seq(h.arr1,h.arr2))
-
-    return 1
     
     print("Hello!")
     print("First, let's pick a substitution matrix.")
