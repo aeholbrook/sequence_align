@@ -1,9 +1,3 @@
-#Hello! If you're reading this, I want you to know that I really enjoyed working on this project
-#and I find this subject matter realy interesting. I used this as an opportunity to learn some more about python and numpy, 
-#neither of which are languages very familiar to me. I think this may make some of this code somewhat
-#more bulky and less pretty/efficient than I would have made if it were in another language, 
-#bug I still think it does what it's supposed to do. 
-
 import numpy as np
 import time as t
 from global_alignment import *
